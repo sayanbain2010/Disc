@@ -1,23 +1,35 @@
 export default function Privacy() {
+  return (
+    <div className="max-w-4xl mx-auto py-10 px-5">
+      <h1 className="font-semibold text-3xl text-white/75">Privacy Policy for Retro</h1>
+      <p className="text-sm text-white/30 mb-4">Last Update: 14/08/2025 🆕️</p>
 
-    return (
-        <div>
-            <h1 className="font-semibold text-3xl text-white/75">Privacy Policy for MusicMaker</h1>
-            <p className="text-sm text-white/30 mb-4">Last Update: 20/05/2022  🆕️</p>
-  <div className="animateHeader text-white text-opacity-40 mt-5">
-        <p>⊳ To use the MusicMaker bot, you must define the necessary permissions when adding it to your discord server. <a className="text-white">(READ MESSAGES, SEND MESSAGES, EMBED LINKS, ATTACH FILES, READ MESSAGE HISTORY, CONNECT, SPEAK, USE VOICE ACTIVITY, PRIORITY SPEAKER)</a></p>
-        <div className="py-3"></div>
-        <p>⊳ You have to vote for the <a className="text-white" href="https://top.gg/bot/774043716797071371/vote">MusicMaker</a> bot when using certain commands from the bot commands.</p>
-        <div className="py-3"></div>
-        <p>⊳ Every user can use the MusicMaker bot however they want, as long as they do not intend to harm.</p>
-        <div className="py-3"></div>
-        <p>⊳ You cannot use certain commands at the same time while using MusicMaker.</p>   
-        <div className="py-3"></div>
-        <p>⊳ MusicMaker bot does not save any data based on users.</p>
-        <div className="py-3"></div>
-        <p>⊳ While using the bot, your user ID is saved and deleted in the system for 60 seconds for once.</p> 
-    
-        </div>
-            </div>
-    );
-};
+      <div className="animateHeader text-white text-opacity-40 mt-5 space-y-3">
+        <p>
+          ⊳ To use the Retro bot, you must grant the necessary permissions when adding it to your Discord server: 
+          <span className="text-white"> READ MESSAGES, SEND MESSAGES, EMBED LINKS, ATTACH FILES, READ MESSAGE HISTORY, CONNECT, SPEAK, USE VOICE ACTIVITY, PRIORITY SPEAKER</span>
+        </p>
+
+        <p>
+          ⊳ Some commands may require voting for Retro on <a className="text-purple-400" href="https://top.gg/bot/YOUR_RETRO_BOT_ID/vote" target="_blank" rel="noopener noreferrer">Top.gg</a>.
+        </p>
+
+        <p>
+          ⊳ Users can use Retro freely as long as their intent is not harmful.
+        </p>
+
+        <p>
+          ⊳ Certain commands cannot be used simultaneously to prevent conflicts in playback.
+        </p>
+
+        <p>
+          ⊳ Retro does not permanently save any user data.
+        </p>
+
+        <p>
+          ⊳ For temporary functionality, your user ID may be saved for a short period (e.g., 60 seconds) and deleted automatically.
+        </p>
+      </div>
+    </div>
+  );
+}
