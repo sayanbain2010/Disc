@@ -6,6 +6,7 @@ import Head from "next/head";
 import Header from "../components/Static/Header";
 import Footer from "../components/Static/Footer";
 import { ThemeProvider } from "next-themes";
+import { ThemeProvider } from "next-themes";
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
